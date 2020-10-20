@@ -39,7 +39,7 @@ export default class Register extends React.Component {
                                 
                                     <div className="left-col">
                                      
-                                        <Field name="email" type="text" className={'form-control' + (errors.email && touched.email ? ' is-invalid' : '')} />
+                                        <Field name="email" type="text" className={'form-control' + (errors.email && touched.email ? ' is-invalid' : '')} id="input-email" placeholder="Your Email Address *"/>
                                         <ErrorMessage name="email" component="div" className="invalid-feedback" />
                                     </div>
                                     <div className="right-col">
