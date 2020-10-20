@@ -9,12 +9,11 @@
     background-color: #282828;
   }
   
-  .container{
-
-  width: 1200px;
-  margin: auto;
-}
-  
+  .header-content,
+  .main-content {
+    width: 63%;
+    margin: auto;
+  }
   
   /* Headers  */
   h1,
@@ -24,10 +23,7 @@
     color: white;
   }
   
-  h1 {
-    padding: 12% 0 4% 0;
-    font-size: 65px;
-  }
+ 
   
   h2 {
     font-size: 35px;
@@ -35,14 +31,14 @@
   }
   
   /* Header Red Line */
-  hr {
+  .header-bottom-line {
     height: 10px;
     width: 30%;
     background-color: #d02035;
   }
   
   /* Main Sections */
-   p {
+  .main-content p {
     font-family: "Merriweather", serif;
     color: white;
   }
