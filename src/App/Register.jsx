@@ -18,12 +18,12 @@ export default class Register extends React.Component {
                     signUpBtn.innerHTML = 'Submiting...';
                     setTimeout(() => {
                         history.push('/home');
-                        console.log("Logging in", fields, signUpBtn);
+                        console.log("Logging in", fields);
                         
                         setSubmitting(false);
                     }, 2000);
                     
-                   // alert('SUCCESS!! :-)\n\n' + JSON.stringify(fields, null, 4));
+                   
                     
                    
                 }}
@@ -43,12 +43,12 @@ export default class Register extends React.Component {
                                         <ErrorMessage name="email" component="div" className="invalid-feedback" />
                                     </div>
                                     <div className="right-col">
-                                        <select defaultValue="Your Interests">
+                                        <Field name="interest" as="select" defaultValue="Your Interests">
                                             <option>Your Interests</option>
                                             <option>Web Developer</option>
                                             <option>Digital Marketing</option>
                                             <option>UX UI</option>
-                                        </select>
+                                        </Field>
 
                                     </div>
                                 

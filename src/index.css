@@ -9,9 +9,9 @@
     background-color: #282828;
   }
   
-  .container{
+  .main-section{
 
-  width: 1200px;
+  width: 65%;
   margin: auto;
 }
   
@@ -51,6 +51,23 @@
     font-size: 20px;
     padding: 3% 0 2% 0;
   }
+  .form-control{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+
+  }
+  .left-col{
+    width: 49%;
+    
+    -webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+  }
+  
+  .right-col {
+    width: 49%;
+  }
   
   /* Inputs Section */
   .inputs {
@@ -64,10 +81,6 @@
     margin: auto;
   }
   
-  .left-col,
-  .right-col {
-    width: 49%;
-  }
   
   input,
   select {
@@ -119,14 +132,14 @@
      for responsive purposes */
   @media screen and (max-width: 1280px) {
     .header-content,
-    .main-content {
+    .main-section {
       width: 80%;
     }
   }
   
   @media screen and (max-width: 800px) {
     .header-content,
-    .main-content {
+    .main-section {
       width: 95%;
     }
   

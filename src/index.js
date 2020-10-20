@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { App } from './App';
 import './index.css';
 render(
-  <div className="container">
+  <div className="main-section">
 
     <BrowserRouter>
       <h1>INTERNSHIP SIGNUP FORM</h1>
